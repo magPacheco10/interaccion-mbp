@@ -29,7 +29,7 @@ recognition.addEventListener('result', (e)=>{
       texts.appendChild(p)
     }
 
-    if (text.includes('abre YouTube')) {
+    if (text.includes('Abre YouTube')) {
       p = document.createElement('p');
       p.classList.add('replay');
       p.innerText = 'opening youtube channel';
