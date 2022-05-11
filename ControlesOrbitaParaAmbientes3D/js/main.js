@@ -1,6 +1,6 @@
 
 import * as THREE from '../src/three.module.js';
-import {OrbitControls} from '../src/Orbitcontrols.js';
+import {OrbitControls} from '../src/OrbitControls.js';
 
 var scene = new THREE.Scene();
         scene.background = new THREE.Color(0x2a3b4c);
